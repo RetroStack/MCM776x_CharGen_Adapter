@@ -1,9 +1,9 @@
 # MCM667x Character Generator Adapter
 
-This repository provides an adapter for the Motorola MCM6670 and related (MCM667x series) character generators for vintage computers. ROMs with various character sets are provided in a [separate repository]().
+This repository provides an adapter for the Motorola MCM6670 and related (MCM667x series) character generators for vintage computers. ROMs with various character sets are provided in a [separate repository](https://github.com/RetroStack/Character_Generator_ROMs).
 The entire project is available under the MIT license.
 
-![Adapter Variations](/Latest/TRS80_Model_I_G_E1_Photo.png)
+![Adapter Variations](/Latest/MCM776x_Character_Generator_Adapter_Photo.png)
 
 ## Project Details
 
@@ -25,7 +25,7 @@ The adapter has been implemented using KiCAD 7. The KiCAD project files are incl
 
 ### Assembly Instructions
 
-![PCB](/Latest/TRS80_Model_I_G_E1_Photo1.png)
+![PCB](/Latest/MCM776x_Character_Generator_Adapter_Photo1.png)
 
 1) Get a straight male pin header with pitch (2.54mm; standard) and break it to a 9-pin length. Do this twice. A machined header is recommended if the adapter will be inserted into a socket. Inserting a square pin in a socket might damage them.
 2) Solder the pins in place into the central lengthwise holes. To align them correctly, you can use another socket or a breadboard. Stick the longer parts into the socket/breadboard and put the PCB on top. Solder first both edges on each. Recheck if they are flush to the header. If not, reheat the corner that needs correction and press down on PCB until flush. Then, solder all other pins.
@@ -34,7 +34,7 @@ The adapter has been implemented using KiCAD 7. The KiCAD project files are incl
 5) (Optional) Solder a socket in place. Similarly to the headers mentioned above, only solder one pin on each side before soldering all to be able to make adjustments as needed. Adding a socket is not recommended for machines which do not have enough space for it (e.g., TRS-80 Model 1). For these, you need to skip this step and solder the ROM directly to the board.
 6) Solder the ROM to the board or insert it into the socket.
 
-![Partly Assembled](/Latest/TRS80_Model_I_G_E1_Photo2.png)
+![Partly Assembled](/Latest/MCM776x_Character_Generator_Adapter_Photo2.png)
 
 The adapter provides various configurations. Depending on your ROM used, only some PINs can be configured. See the description on the board for more details.
 For example, a 27256 ROM only uses 14 pins and therefore only 5 pins can be configured. The 6th will not have an affect.
@@ -53,7 +53,7 @@ Here are some examples:
 7) Add a 2 row pin straight header (2.54mm pitch) to the center two pins of the extension board. You need to leave one row on each side (on edge and on the side next to the ROM).
 8) Add jumpers.
 
-![Assembled](/Latest/Images/Image3.png)
+![Assembled](/Images/Image3.png)
 
 ### Right Angle Jumpers
 NOTE: Due to space constraints, only 5 jumpers can be used.
@@ -61,12 +61,12 @@ NOTE: Due to space constraints, only 5 jumpers can be used.
 8) Add a 2 row pin right-angle header (2.54mm pitch) to the bottom of the PCB, extending one end out over the board where the extension was.
 8) Add jumpers.
 
-![Assembled](/Latest/Images/Image2.png)
+![Assembled](/Images/Image2.png)
 
 ### DIP Switches
 7) Add a DIP switch on the extension board. The DIP switch should cover all holes from front to back.
 
-![Assembled](/Latest/Images/Image1.png)
+![Assembled](/Images/Image1.png)
 
 ### DIP Switches on extension board
 NOTE: Due to space constraints, only 5 DIP switches can be used.
@@ -75,7 +75,7 @@ NOTE: Due to space constraints, only 5 DIP switches can be used.
 9) Solder all wires to the extension board. Use the central two rows of holes. Solder it on from the bottom as DIP switches will be added to the top. Solder the address lines closest to the perforated line where the extension board was attached to the adapter PCB. Solder the single ground wire to and other hole of the second row of holes further away from the perforated edge.
 10) Add a DIP switch on the extension board. The DIP switch should cover all holes from front to back. You may need to trim the soldered pins of the cable to solder the DIP switches as close to flush as possible.
 
-![Assembled](/Latest/Images/Image4.png)
+![Assembled](/Images/Image4.png)
 
 ### Jumper caps on extension board
 NOTE: Due to space constraints, only 5 jumpers can be used.
@@ -98,12 +98,13 @@ Below is a list of materials needed to assemble a complete system. Please note t
 
 Note: Links and alternatives are provided to assist you in finding the necessary components. I cannot guarantee the complete accuracy or reliability of all these links and alternatives. Please check it for yourself!
 
-|PCB REFERENCE|QTY|VALUE|COMPONENT|DESCRIPTION|COMMENT|EACH|TOTAL|SOURCE|SOURCE LINK
-|RN1|1|4.7k Ohm|Resistor Network|Resistor_THT:R_Array_SIP7|"6 resistor network with 7-pins, bussed resistors"|0.5|0.5|Mouser|https://www.mouser.com/ProductDetail/652-4607X-1LF-4.7K
-|U1|2|12-pin single row header|Conn_02x09_Counter_Clockwise|Package_DIP:DIP-18_W7.62mm|"Source Link is for a rather expensive version of a machined straight male pin header with 40-pins which can be broken into smaller pieces to server for both. There are cheaper ones, but the link is used for future reference."|1.0|1.0|Mouser|https://www.amazon.com/ZYAMY-2-54mm-Breakable-Straight-Connector/dp/B0778KCHHR/
-|U2|1|2x64-2x512|ROM|Package_DIP:DIP-28_W15.24mm|"Examples are 23128, 23256, 2764, 27128, 27256, 27512, 2864, 28256 and all other variations such as 27C256 or AT28C64B"|5.5|5.5|Mouser|https://www.mouser.com/ProductDetail/556-AT28C64B15PU
-|J1|1|-|Conn_02x05_Odd_Even|Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical|Optional. Could be used for right-angle jumpers or attaching ribbon cable to move switch towards more accessible place.||||
-|J2|1|-|Conn_02x06_Odd_Even|RetroStackLibrary:DIPJumper_6|Optional. Adding the ability to switch character sets.||||
+|PCB REFERENCE|QTY|VALUE|COMMENT|EACH|TOTAL|SOURCE LINK|
+|-|-|-|-|-|-|-|
+|RN1|1|4.7k Ohm|6 resistor network with 7-pins, bussed resistors|0.5|0.5|[Mouser](https://www.mouser.com/ProductDetail/652-4607X-1LF-4.7K)|
+|U1|2||Source Link is for a rather expensive version of a machined straight male pin header with 40-pins which can be broken into smaller pieces to server for both. There are cheaper ones, but the link is used for future reference.|1.0|1.0|[Mouser](https://www.amazon.com/ZYAMY-2-54mm-Breakable-Straight-Connector/dp/B0778KCHHR/)|
+|U2|1|2x64-2x512|Examples are 23128, 23256, 2764, 27128, 27256, 27512, 2864, 28256 and all other variations such as 27C256 or AT28C64B|5.5|5.5|[Mouser](https://www.mouser.com/ProductDetail/556-AT28C64B15PU)|
+|J1|1|-|Optional. Could be used for right-angle jumpers or attaching ribbon cable to move switch towards more accessible place.||||
+|J2|1|-|Optional. Adding the ability to switch character sets.||||
 
 ### RetroStack Libraries
 
