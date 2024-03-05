@@ -5,6 +5,7 @@ The entire project is available under the MIT license.
 
 ![Adapter Variations](/Images/InPlace.png)
 ![Adapter Variations](/Latest/MCM776x_Character_Generator_Adapter_Photo.png)
+(When assembling, use a low-profile DIP switch instead to fit nicely in the case.)
 
 ## Project Details
 
@@ -40,9 +41,9 @@ The adapter has been implemented using KiCAD 7. The KiCAD project files are incl
 The adapter provides various configurations. Depending on your ROM used, only some PINs can be configured. See the description on the board for more details.
 For example, a 27256 ROM only uses 14 pins and therefore only 5 pins can be configured. The 6th will not have an affect.
 
-NOTE: Keep in mind that the bits are active-low. That means if you want to put set a 1 on a specific address, you leave it unbridged. If you want a 0, then bridge it. This can be fixed by using a reversed/inverted ROM. See below for more details why that is.
+**NOTE**: Keep in mind that the bits are active-low. That means if you want to put set a 1 on a specific address, you leave it unbridged. If you want a 0, then bridge it. This can be fixed by using a reversed/inverted ROM. See below for more details why that is.
 
-NOTE: The board exposes the bits from right to left. If you prefer left to right (e.g. for DIP switches to match labels), then flip the address bits in the ROM or use the provided "f" versions of these.
+**NOTE**: The board exposes the bits from right to left. If you prefer left to right (e.g. for DIP switches to match labels), then flip the address bits in the ROM or use the provided "f" versions of these.
 
 Here are some examples:
 
@@ -57,7 +58,7 @@ Here are some examples:
 ![Assembled](/Images/Image3.png)
 
 ### Right Angle Jumpers
-NOTE: Due to space constraints, only 5 jumpers can be used.
+**NOTE**: Due to space constraints, only 5 jumpers can be used.
 7) Clip off extension board on perforated line.
 8) Add a 2 row pin right-angle header (2.54mm pitch) to the bottom of the PCB, extending one end out over the board where the extension was.
 8) Add jumpers.
@@ -65,12 +66,13 @@ NOTE: Due to space constraints, only 5 jumpers can be used.
 ![Assembled](/Images/Image2.png)
 
 ### DIP Switches
+**NOTE**: For TRS-80 Model 1: Use low-profile dip switches to make sure the adapter fits in the case.
 7) Add a DIP switch on the extension board. The DIP switch should cover all holes from front to back.
 
 ![Assembled](/Images/Image1.png)
 
 ### DIP Switches on extension board
-NOTE: Due to space constraints, only 5 DIP switches can be used.
+**NOTE**: Due to space constraints, only 5 DIP switches can be used.
 7) Clip off extension board on perforated line.
 8) Solder up to 6 wires (e.g. ribbon cable) to the bottom of the PCB. Use up to 5 wires for each address line, which is the row close to the center of the board (next to the revision number). To identify which address line is which, see the label just below the ROM on the top of the adapter PCB. Solder at least one wire to any of the holes closer to the edge of the board. These are ground pins and therefore any could be used.
 9) Solder all wires to the extension board. Use the central two rows of holes. Solder it on from the bottom as DIP switches will be added to the top. Solder the address lines closest to the perforated line where the extension board was attached to the adapter PCB. Solder the single ground wire to and other hole of the second row of holes further away from the perforated edge.
@@ -97,15 +99,16 @@ Overall, one direction had to be chosen, and I went with the simplest. This can 
 
 Below is a list of materials needed to assemble a complete system. Please note that the links and prices (scroll to the right to see them; as of March 3rd, 2024) will not be updated in the future and should only be used as a reference for locating the correct items.
 
-Note: Links and alternatives are provided to assist you in finding the necessary components. I cannot guarantee the complete accuracy or reliability of all these links and alternatives. Please check it for yourself!
+**NOTE**: Links and alternatives are provided to assist you in finding the necessary components. I cannot guarantee the complete accuracy or reliability of all these links and alternatives. Please check it for yourself!
 
 |PCB REFERENCE|QTY|VALUE|COMMENT|EACH|TOTAL|SOURCE LINK|
 |-|-|-|-|-|-|-|
 |RN1|1|4.7k Ohm|6 resistor network with 7-pins, bussed resistors|0.5|0.5|[Mouser](https://www.mouser.com/ProductDetail/652-4607X-1LF-4.7K)|
 |U1|2||Source Link is for a rather expensive version of a machined straight male pin header with 40-pins which can be broken into smaller pieces to server for both. There are cheaper ones, but the link is used for future reference.|1.0|1.0|[Mouser](https://www.amazon.com/ZYAMY-2-54mm-Breakable-Straight-Connector/dp/B0778KCHHR/)|
 |U2|1|2x64-2x512|Examples are 23128, 23256, 2764, 27128, 27256, 27512, 2864, 28256 and all other variations such as 27C256 or AT28C64B|5.5|5.5|[Mouser](https://www.mouser.com/ProductDetail/556-AT28C64B15PU)|
-|J1|1|-|Optional. Could be used for right-angle jumpers or attaching ribbon cable to move switch towards more accessible place.||||
-|J2|1|-|Optional. Adding the ability to switch character sets.||||
+|J1|1|-|Optional. Could be used for right-angle jumpers or attaching ribbon cable to move switch towards more accessible place.|1.02|1.02|[Mouser](https://www.mouser.com/ProductDetail/649-1012938294001BLF)|
+|J2|1|-|Optional. Adding the ability to switch character sets.|0.27|0.27|[Mouser](https://www.mouser.com/ProductDetail/571-1033222)|
+||1|Low-profile|Optional. Adding the ability to switch character sets.|0.67|0.67|[Mouser](https://www.mouser.com/ProductDetail/774-2105MS)|
 
 ### RetroStack Libraries
 
