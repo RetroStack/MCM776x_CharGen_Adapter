@@ -3,6 +3,7 @@
 This repository provides an adapter for the Motorola MCM6670 and related (MCM667x series) character generators for vintage computers. ROMs with various character sets are provided in a [separate repository](https://github.com/RetroStack/Character_Generator_ROMs).
 The entire project is available under the MIT license.
 
+![Adapter Variations](/Images/InPlace.png)
 ![Adapter Variations](/Latest/MCM776x_Character_Generator_Adapter_Photo.png)
 
 ## Project Details
