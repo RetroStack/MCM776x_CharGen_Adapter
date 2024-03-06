@@ -6,8 +6,8 @@
 
   (title_block
     (title "MCM7760/4 - Character Generator Adapter")
-    (date "2024-01-21")
-    (rev "Rev 1.0")
+    (date "2024-03-05")
+    (rev "Rev 1.1")
     (company "RetroStack - Marcel Erz")
     (comment 4 "Character Generator Adapter")
   )
@@ -1558,7 +1558,7 @@
     (pin "1" (uuid 75fbf9a0-5c24-408e-a79a-20984486363f))
     (pin "2" (uuid 417d1ae1-956e-467b-8e7d-7e0efb048ca2))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "JP1") (unit 1)
         )
@@ -1583,7 +1583,7 @@
     )
     (pin "1" (uuid 640d3b24-c770-41e3-9fb2-90243b29dd9b))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "#PWR014") (unit 1)
         )
@@ -1617,7 +1617,7 @@
     (pin "8" (uuid 836a0d7b-44d8-4a2c-9d73-0df07074a54b))
     (pin "9" (uuid c26672d4-db96-44d7-8d4d-103365cae3a4))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "J1") (unit 1)
         )
@@ -1642,7 +1642,7 @@
     )
     (pin "1" (uuid 57d8c844-5ebc-4a5a-bd73-73276fb86d25))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "#PWR03") (unit 1)
         )
@@ -1667,7 +1667,7 @@
     )
     (pin "1" (uuid b59f802d-c2fe-470e-a489-9232916afea0))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "#FLG01") (unit 1)
         )
@@ -1693,7 +1693,7 @@
     (pin "1" (uuid 11d2d50b-706d-474f-a1b0-7ebd5d20290c))
     (pin "2" (uuid e8bde408-aa6b-4fda-83f6-e41e1b0f3f73))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "JP6") (unit 1)
         )
@@ -1724,7 +1724,7 @@
     (pin "6" (uuid 51e57053-3449-45f9-80c1-9d5443de55c8))
     (pin "7" (uuid ccaa5e53-2df1-4062-9d99-2f1d7a1952ad))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "RN1") (unit 1)
         )
@@ -1749,7 +1749,7 @@
     )
     (pin "1" (uuid bcd44b9f-8c25-4668-9a98-f74d99515687))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "#PWR07") (unit 1)
         )
@@ -1774,7 +1774,7 @@
     )
     (pin "1" (uuid 14c5eed3-877b-4652-93dc-6523e7c2c16b))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "#FLG02") (unit 1)
         )
@@ -1826,7 +1826,7 @@
     (pin "8" (uuid a6796d8a-a681-4bad-849e-995c978eba2b))
     (pin "9" (uuid d70363af-017e-4edd-9eee-ba7d38173d7d))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "U2") (unit 1)
         )
@@ -1852,7 +1852,7 @@
     (pin "1" (uuid e47edcc6-e395-42f5-bd89-037a64499a8e))
     (pin "2" (uuid c820e2d8-fa73-4715-bddc-259760697c0e))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "JP5") (unit 1)
         )
@@ -1888,7 +1888,7 @@
     (pin "8" (uuid 852115d8-3c51-4236-bdfd-7f9cdab1344c))
     (pin "9" (uuid 070a78eb-0131-48fe-b289-41e9bc6563ba))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "J2") (unit 1)
         )
@@ -1914,7 +1914,7 @@
     (pin "1" (uuid 2c18c58b-d427-4367-8bda-cb9dbfb56fbe))
     (pin "2" (uuid e3559e78-a8d6-480d-ab34-e83ae1f6cbfa))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "JP3") (unit 1)
         )
@@ -1956,7 +1956,7 @@
     (pin "8" (uuid 83d4965e-de01-40ea-b234-a69bcdbf55d8))
     (pin "9" (uuid eaa46bd3-8d58-45b0-9aad-d818e87cadd0))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "U1") (unit 1)
         )
@@ -1981,7 +1981,7 @@
     )
     (pin "1" (uuid 3981ca87-96c2-446c-a0ac-c01852eed5ae))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "#PWR016") (unit 1)
         )
@@ -2006,7 +2006,7 @@
     )
     (pin "1" (uuid 5c2edb03-b208-4c53-80aa-da5e2c1aa7d2))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "#PWR010") (unit 1)
         )
@@ -2032,7 +2032,7 @@
     (pin "1" (uuid f39fd37c-202e-4897-a91b-aafbe1542a1c))
     (pin "2" (uuid 46624ec3-8bb3-425f-aeeb-ec59784262a5))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "JP2") (unit 1)
         )
@@ -2057,7 +2057,7 @@
     )
     (pin "1" (uuid 69dd6ff3-559b-48ba-b740-86a69107803f))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "#PWR05") (unit 1)
         )
@@ -2082,7 +2082,7 @@
     )
     (pin "1" (uuid 472cb16d-bd85-4587-acab-d87e52b3e65e))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "#PWR06") (unit 1)
         )
@@ -2108,7 +2108,7 @@
     (pin "1" (uuid e18f9338-449a-42a1-92c3-2e8f26fce226))
     (pin "2" (uuid cdb9b32e-6278-479f-bb6c-c459e6daf3e3))
     (instances
-      (project "TRS80_Model_I_Character_Generator"
+      (project "MCM776x_Character_Generator_Adapter"
         (path "/701a2cc1-ff66-476a-8e0a-77db17580c7f"
           (reference "JP4") (unit 1)
         )

@@ -3,3 +3,8 @@
 ## 3rd March 2024 - Rev 1.0
 
 Completed test. Fully functional.
+
+## 5th March 2024 - Rev 1.1
+
+- Increased distance between perforated holes and traces
+- Moved socket down to accommodate TRS-80 Model 1 casing better

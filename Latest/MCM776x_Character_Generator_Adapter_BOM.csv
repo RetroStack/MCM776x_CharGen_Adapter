@@ -1,6 +1,7 @@
-PCB REFERENCE|QTY|VALUE|COMPONENT|DESCRIPTION|COMMENT|EACH|TOTAL|SOURCE|SOURCE LINK
-RN1|1|4.7k Ohm|Resistor Network|Resistor_THT:R_Array_SIP7|"6 resistor network with 7-pins| bussed resistors"|0.5|0.5|Mouser|https://www.mouser.com/ProductDetail/652-4607X-1LF-4.7K
-U1|2|12-pin single row header|Conn_02x09_Counter_Clockwise|Package_DIP:DIP-18_W7.62mm|"Source Link is for a rather expensive version of a machined straight male pin header with 40-pins which can be broken into smaller pieces to server for both. There are cheaper ones| but the link is used for future reference."|1.0|1.0|Mouser|https://www.amazon.com/ZYAMY-2-54mm-Breakable-Straight-Connector/dp/B0778KCHHR/
-U2|1|2x64-2x512|ROM|Package_DIP:DIP-28_W15.24mm|"Examples are 23128| 23256| 2764| 27128| 27256| 27512| 2864| 28256 and all other variations such as 27C256 or AT28C64B"|5.5|5.5|Mouser|https://www.mouser.com/ProductDetail/556-AT28C64B15PU
-J1|1|-|Conn_02x05_Odd_Even|Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical|Optional. Could be used for right-angle jumpers or attaching ribbon cable to move switch towards more accessible place.||||
-J2|1|-|Conn_02x06_Odd_Even|RetroStackLibrary:DIPJumper_6|Optional. Adding the ability to switch character sets.||||
+PCB REFERENCE,QTY,VALUE,COMPONENT,DESCRIPTION,COMMENT,EACH,TOTAL,SOURCE,SOURCE LINK
+RN1,1,4.7k Ohm,Resistor Network,Resistor_THT:R_Array_SIP7,"6 resistor network with 7-pins, bussed resistors",0.5,0.5,Mouser,https://www.mouser.com/ProductDetail/652-4607X-1LF-4.7K
+U1,2,12-pin single row header,Conn_02x09_Counter_Clockwise,Package_DIP:DIP-18_W7.62mm,"Source Link is for a rather expensive version of a machined straight male pin header with 40-pins which can be broken into smaller pieces to server for both. There are cheaper ones, but the link is used for future reference.",1.0,1.0,Mouser,https://www.amazon.com/ZYAMY-2-54mm-Breakable-Straight-Connector/dp/B0778KCHHR/
+U2,1,2x64-2x512,ROM,Package_DIP:DIP-28_W15.24mm,"Examples are 23128, 23256, 2764, 27128, 27256, 27512, 2864, 28256 and all other variations such as 27C256 or AT28C64B",5.5,5.5,Mouser,https://www.mouser.com/ProductDetail/556-AT28C64B15PU
+J1,1,-,Conn_02x05_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical,Optional. Could be used for right-angle jumpers or attaching ribbon cable to move switch towards more accessible place.,1.02,1.02,Mouser,https://www.mouser.com/ProductDetail/649-1012938294001BLF
+J2,1,-,Conn_02x06_Odd_Even,RetroStackLibrary:DIPJumper_6,Optional. Adding the ability to switch character sets.,0.27,0.27,Mouser,https://www.mouser.com/ProductDetail/571-1033222
+,1,,,Low-profile,Optional. Adding the ability to switch character sets.,0.67,0.67,Mouser,https://www.mouser.com/ProductDetail/774-2105MS
