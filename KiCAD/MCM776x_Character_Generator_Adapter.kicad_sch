@@ -7,7 +7,7 @@
   (title_block
     (title "MCM7760/4 - Character Generator Adapter")
     (date "2024-03-05")
-    (rev "Rev 1.1")
+    (rev "Rev 1.2")
     (company "RetroStack - Marcel Erz")
     (comment 4 "Character Generator Adapter")
   )
