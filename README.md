@@ -5,7 +5,6 @@ The entire project is available under the MIT license.
 
 ![Adapter Variations](/Images/InPlace.png)
 ![Adapter Variations](/Latest/MCM776x_Character_Generator_Adapter_Photo.png)
-(When assembling, use a low-profile DIP switch instead to fit nicely in the case.)
 
 ## Project Details
 
@@ -92,7 +91,7 @@ NOTE: Due to space constraints, only 5 jumpers can be used.
 Some ROMs, especially the EEPROMs have an active-low WRITE pin that needs to be HIGH (or 1) in normal (read) use. To avoid putting ROMs in an incorrect mode (write mode instead of read mode), all additional pins are pulled high by default through pull-up resistors.
 
 ### Why are address lines from right to left?
-Having them in this orientation was the simplest without adding complexity to the design. Additionally, the addressing depends on what type of configuration you use. Binary numbers are usually written from right to left (as implemented) and this works best fro jumpers, for example. However, DIP switches uses labels from left to right.
+Having them in this orientation was the simplest without adding complexity to the design. Additionally, the addressing depends on what type of configuration you use. Binary numbers are usually written from right to left (as implemented) and this works best for jumpers, for example. However, DIP switches uses labels from left to right.
 Overall, one direction had to be chosen, and I went with the simplest. This can be fixed by flipping the address bits. ROMs having this fix already marked with an "f".
 
 ### Bill of Materials (BOM)
